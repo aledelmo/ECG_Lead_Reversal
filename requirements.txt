@@ -1,4 +1,5 @@
 pandas
+seaborn
 wfdb
 biosppy
 pywavelets
