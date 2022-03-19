@@ -7,7 +7,7 @@ Author : Alessandro Delmonte
 Contact : alessandro.delmonte@institutimagine.org
 
 Questions:
-Given a string. What is the first unique character?
+Find the first unique character in a given string
 
 1. Implement the first_unique() function
 2. What is the complexity of this function ?
@@ -34,5 +34,8 @@ if __name__ == '__main__':
     assert first_unique('aba') == 'b', "Failed test 1"
     assert first_unique('abca') == 'b', "Failed test 2"
     assert first_unique('aa') is None, "Failed test 3"
-    print("OK")
-
+    '-----------------------------------------------------------'
+    assert first_unique('') is None, "Failed test 4"
+    assert first_unique('caab') == 'c', "Failed test 4"
+    assert first_unique('aaah') == 'h', "Failed test 4"
+    print("OK with complexity O(n)")
