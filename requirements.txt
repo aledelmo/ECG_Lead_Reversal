@@ -1,5 +1,7 @@
-pandas
-seaborn
-wfdb
-biosppy
+tensorflow
+scikit-learn
+numpy
 pywavelets
+biosppy
+seaborn
+packaging
