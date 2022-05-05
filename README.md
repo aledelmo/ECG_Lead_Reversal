@@ -1,6 +1,6 @@
 # ECG Lead Reversal
 
-![intro](https://i.imgur.com/jeZ7slR.jpg)
+![intro](https://i.imgur.com/ey6SYR6.png)
 
 The ECG is a time series that measures the electrical activity of the heart. This is the main tool to diagnose heart diseases. 
 
